@@ -16,7 +16,7 @@ const Todo = (props) => {
           <small>Time Required: {time} mins</small>
         </p>
         <div className="card-actions">
-          <button className="btn btn-primary">Add to List</button>
+          <button className="btn btn-primary w-full">Add to List</button>
         </div>
       </div>
     </div>
