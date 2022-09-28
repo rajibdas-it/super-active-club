@@ -1,42 +1,58 @@
 [
   {
+    "id": 1,
     "title": "Meditation",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "30"
+    "description": "Start my day with meditaton.",
+    "img": "https://files.quantummethod.org.bd/media/image/publication/shukria_meditation.jpg",
+    "time": 30
   },
   {
+    "id": 2,
     "title": "Read Holy Vedas",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "10"
+    "description": "Read vdeas for 10 mins for remember and greatful to god.",
+    "img": "https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?cs=srgb&dl=pexels-pixabay-459791.jpg&fm=jpg",
+    "time": 10
   },
   {
+    "id": 3,
     "title": "Make Budget Sheet Report",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "10"
+    "description": "Very important work. Create budget sheet report accroding to the data from ERP.",
+    "img": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?cs=srgb&dl=pexels-lukas-590016.jpg&fm=jpg",
+    "time": 10
   },
   {
-    "title": "Create New Stock Report",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "30"
+    "id": 4,
+    "title": "Create New Report(ERP)",
+    "description": "Create a new report as per management requirements for our ERP Software.",
+    "img": "https://images.pexels.com/photos/7947741/pexels-photo-7947741.jpeg?cs=srgb&dl=pexels-rodnae-productions-7947741.jpg&fm=jpg",
+    "time": 30
   },
   {
+    "id": 5,
     "title": "Add New Item To Item Master",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "20"
+    "description": "Remaining new item need to added in item master fro excel file.",
+    "img": "https://www.jaredwolff.com/five-reasons-your-company-needs-an-item-master/images/main.png",
+    "time": 20
   },
   {
+    "id": 6,
     "title": "Reading React Doc's",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "30"
+    "description": "Reading react docs as per instruction from Jhankar Vai.",
+    "img": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "time": 30
   },
   {
+    "id": 7,
     "title": "Take Postgres DB Backup",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "10"
+    "description": "Take accessories ERP Database backup and save in my pc from Accessories Server.",
+    "img": "https://miro.medium.com/max/720/1*7AOhGDnRL2eyJMUidCHZEA.jpeg",
+    "time": 10
   },
   {
+    "id": 8,
     "title": "Yoga",
-    "img": "https://drive.google.com/drive/folders/1H5WeR-jr6A6cUAXevVFeL5aTiijkIv95",
-    "time": "30"
+    "description": "Health issue! most important part of life. Doing yoga for 30 mins to help you lead a better life.",
+    "img": "https://images.pexels.com/photos/3772502/pexels-photo-3772502.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3772502.jpg&fm=jpg",
+    "time": 30
   }
 ]
