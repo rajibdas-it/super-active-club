@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WorkingDetails = (props) => {
-    const { takeTime } = props
+    const { takeTime, breakTime } = props
     return (
         <div>
             <div className="mt-6 ml-4">
@@ -12,7 +12,7 @@ const WorkingDetails = (props) => {
                 </div>
                 <div className="ml-12 bg-slate-200 gap-14 w-[83%] mx-auto flex justify-between p-3 rounded-md mt-3">
                     <p>Break Time</p>
-                    <p>200 mins</p>
+                    <p>{breakTime} mins</p>
                 </div>
             </div>
             <div className=" mt-10 w-[80%] mx-auto text-center">
@@ -20,7 +20,6 @@ const WorkingDetails = (props) => {
                     Activity Completed
                 </button>
             </div>
-
         </div>
     );
 };
