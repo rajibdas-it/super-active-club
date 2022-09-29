@@ -23,7 +23,7 @@ const WorkingDetails = (props) => {
                     <p>{breakTime} mins</p>
                 </div>
             </div>
-            <div className=" mt-10 w-[80%] mx-auto text-center">
+            <div className=" mt-10 w-[80%] mx-auto text-center mb-5">
                 <button onClick={handleActivity} className="ml-3 btn btn-primary w-[80%] text-white">
                     Activity Completed
                 </button>

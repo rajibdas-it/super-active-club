@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Todo from "../Todo/Todo";
 import Cart from "../Cart/Cart";
+import Answer from "../Answer/Answer";
 
 const Todos = () => {
   const [todos, setTodos] = useState([]);
@@ -22,18 +23,25 @@ const Todos = () => {
   return (
     // <div className="w-[90%] mx-auto grid grid-cols-5 gap-4"></div>
     // <div className="w-[90%] mx-auto flex flex-col lg:flex-row">
-    <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-col-3 lg:grid-cols-5 gap-4">
-      {/* <div className="todos-container basis-1/2"> */}
-      <div className="todos-container md:col-span-2 lg:col-span-4">
-        <p className="text-2xl font-bold mt-10">Super Active Club</p>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          {todos.map((todo) => (
-            <Todo key={todo.id} todo={todo} handleAddToList={handleAddToList}></Todo>
-          ))}
+    <div>
+      <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-col-3 lg:grid-cols-5 gap-4">
+        {/* <div className="todos-container basis-1/2"> */}
+        <div className="todos-container md:col-span-2 lg:col-span-4">
+          <p className="text-2xl font-bold mt-10">Super Active Club</p>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {todos.map((todo) => (
+              <Todo key={todo.id} todo={todo} handleAddToList={handleAddToList}></Todo>
+            ))}
+          </div>
+        </div>
+        <div className="cart-container bg-white shadow-xl mb-7">
+          <Cart takeTime={takeTime}></Cart>
         </div>
       </div>
-      <div className="cart-container bg-white shadow-xl">
-        <Cart takeTime={takeTime}></Cart>
+      {/* Question Section */}
+      <div className="mt-5 mb-5 w-[70%] mx-auto bg-slate-200">
+        <h1 className="text-center font-bold text-2xl mb-4">Question Sections</h1>
+        <Answer></Answer>
       </div>
     </div>
   );
