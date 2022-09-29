@@ -1,7 +1,15 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 
 const WorkingDetails = (props) => {
     const { takeTime, breakTime } = props
+    const handleActivity = () => {
+        Swal.fire(
+            'Congratulations!',
+            'You have completed all of yor Task.',
+            'success'
+        )
+    }
     return (
         <div>
             <div className="mt-6 ml-4">
@@ -16,7 +24,7 @@ const WorkingDetails = (props) => {
                 </div>
             </div>
             <div className=" mt-10 w-[80%] mx-auto text-center">
-                <button className="ml-3 btn btn-primary w-[80%] text-white">
+                <button onClick={handleActivity} className="ml-3 btn btn-primary w-[80%] text-white">
                     Activity Completed
                 </button>
             </div>

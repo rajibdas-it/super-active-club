@@ -13,10 +13,14 @@ const Cart = (props) => {
             .then(data => setBreakTimes(data))
     }, [])
 
-    console.log(bTime);
+    // console.log(bTime);
     const handleAddBreakTime = (bTime) => {
         setBTime(bTime.breakTime);
+        localStorage.setItem('break-time', JSON.stringify(bTime.breakTime))
+        const findBreakTime = JSON.parse(localStorage.getItem('break-time'))
+        console.log(typeof findBreakTime);
     }
+    // console.log(bTime);
 
     return (
         <div>
