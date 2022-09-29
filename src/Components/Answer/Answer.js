@@ -13,6 +13,10 @@ const Answer = () => {
                     </p>
                     <br />
                     <p>
+                        <span className='text-xl font-bold underline'>Component Based:</span> Application UI is wrapped inside a self-contained module known as a component. Components are used to define the visuals and interactions in applications.
+                    </p>
+                    <br />
+                    <p>
                         <span className='text-xl font-bold underline'> Virtual DOM:</span> A virtual DOM object has similar properties as a real DOM object. It is a one-way data binding hence manipulating the virtual DOM is quick rather than updating the original DOM.
                     </p>
                     <br />
@@ -52,10 +56,17 @@ const Answer = () => {
             </div>
             <div tabIndex={3} className="collapse group mb-2 rounded-md">
                 <div className="collapse-title bg-primary text-primary-content group-focus:bg-primary group-focus:text-secondary-content">
-                    <p className='text-2xl font-bold'> How many reasons we use useEffect without data loading?</p>
+                    <p className='text-2xl font-bold'> How many reasons we do use useEffect in our React application without data fetching from an API?</p>
                 </div>
                 <div className="collapse-content bg-slate-300 text-primary-content group-focus:bg-slate-300 group-focus:text-secondary-content">
-                    <p className='mt-2'>React create a virtual dom</p>
+                    <div className='mt-2'>
+                        <p>1. Side Effect Runs After Every Render</p>
+                        <p>2. Side Effect Runs Only Once After Initial Render</p>
+                        <p>3. Side Effect Runs After State Value Changes</p>
+                        <p>4. Side Effect Runs After Props Value Change</p>
+                        <p>5. Side Effect Runs After Props and State Value Change</p>
+                        <p>6. Side Effect Cleanup</p>
+                    </div>
                 </div>
             </div>
 
