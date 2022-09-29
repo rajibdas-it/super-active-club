@@ -3,53 +3,60 @@
     "id": 1,
     "title": "Meditation",
     "description": "Start my day with meditaton.",
-    "img": "https://files.quantummethod.org.bd/media/image/publication/shukria_meditation.jpg",
+    "img": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20210318070918/ri/673/picture/2021/3/shutterstock_1236746887.jpg",
     "time": 30
   },
   {
     "id": 2,
+    "title": "Donate",
+    "description": "Donate before breakfast.",
+    "img": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "time": 5
+  },
+  {
+    "id": 3,
     "title": "Read Holy Vedas",
     "description": "Read vdeas for 10 mins for remember and greatful to god.",
     "img": "https://images.pexels.com/photos/459791/pexels-photo-459791.jpeg?cs=srgb&dl=pexels-pixabay-459791.jpg&fm=jpg",
     "time": 10
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Make Budget Sheet Report",
     "description": "Very important work. Create budget sheet report accroding to the data from ERP.",
     "img": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?cs=srgb&dl=pexels-lukas-590016.jpg&fm=jpg",
     "time": 10
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Create New Report(ERP)",
     "description": "Create a new report as per management requirements for our ERP Software.",
     "img": "https://images.pexels.com/photos/7947741/pexels-photo-7947741.jpeg?cs=srgb&dl=pexels-rodnae-productions-7947741.jpg&fm=jpg",
     "time": 30
   },
   {
-    "id": 5,
-    "title": "Add New Item To Item Master",
+    "id": 6,
+    "title": "Add New Item(Accessories ERP Item Master)",
     "description": "Remaining new item need to added in item master fro excel file.",
     "img": "https://www.jaredwolff.com/five-reasons-your-company-needs-an-item-master/images/main.png",
     "time": 20
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Reading React Doc's",
     "description": "Reading react docs as per instruction from Jhankar Vai.",
     "img": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "time": 30
   },
   {
-    "id": 7,
-    "title": "Take Postgres DB Backup",
+    "id": 8,
+    "title": "Database Backup(Accessories ERP)",
     "description": "Take accessories ERP Database backup and save in my pc from Accessories Server.",
-    "img": "https://miro.medium.com/max/720/1*7AOhGDnRL2eyJMUidCHZEA.jpeg",
+    "img": "https://www.ionos.com/digitalguide/fileadmin/_processed_/b/e/csm_data-backup-t_20b1b3bdf8.jpg",
     "time": 10
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Yoga",
     "description": "Health issue! most important part of life. Doing yoga for 30 mins to help you lead a better life.",
     "img": "https://images.pexels.com/photos/3772502/pexels-photo-3772502.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3772502.jpg&fm=jpg",
