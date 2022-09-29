@@ -6,7 +6,7 @@ const WorkingDetails = (props) => {
     const handleActivity = () => {
         Swal.fire(
             'Congratulations!',
-            'You have completed all of yor Task.',
+            'You have completed all of your Task.',
             'success'
         )
     }

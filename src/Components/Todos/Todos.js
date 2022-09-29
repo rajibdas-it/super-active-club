@@ -38,11 +38,6 @@ const Todos = () => {
           <Cart takeTime={takeTime}></Cart>
         </div>
       </div>
-      {/* Question Section */}
-      <div className="mt-5 mb-5 w-[70%] mx-auto bg-slate-200">
-        <h1 className="text-center font-bold text-2xl mb-4">Question Sections</h1>
-        <Answer></Answer>
-      </div>
     </div>
   );
 };
