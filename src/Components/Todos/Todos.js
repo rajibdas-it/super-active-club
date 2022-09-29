@@ -27,7 +27,7 @@ const Todos = () => {
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-col-3 lg:grid-cols-5 gap-4">
         {/* <div className="todos-container basis-1/2"> */}
         <div className="todos-container md:col-span-2 lg:col-span-4">
-          <p className="text-2xl font-bold mt-10">Super Active Club</p>
+          <p className="text-2xl font-bold mt-10 text-blue-400">Super Active Club</p>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {todos.map((todo) => (
               <Todo key={todo.id} todo={todo} handleAddToList={handleAddToList}></Todo>
